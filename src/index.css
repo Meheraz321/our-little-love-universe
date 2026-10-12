@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "./styles/animations.css";
+
+:root {
+  --color-soft-pink: #FFD6E7;
+  --color-blush-pink: #FFB6D5;
+  --color-rose-pink: #FF6FAE;
+  --color-deep-red: #E84369;
+  --color-cream-white: #FFF9F5;
+  --color-lavender: #E8DCFF;
+  --color-champagne: #F4D58D;
+  --color-deep-plum: #35172F;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Hind Siliguri', 'Quicksand', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--color-cream-white);
+  color: var(--color-deep-plum);
+  overflow-x: hidden;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Touch responsiveness improvements */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

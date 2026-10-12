@@ -1,0 +1,6 @@
+{
+  "name": "Our Little Love Universe ❤️",
+  "description": "An interactive, cute and romantic love surprise web application for your most beloved person, with love journey, photo memories, letters, blooming roses, and secret surprises in Bengali & English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
