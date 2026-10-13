@@ -54,7 +54,7 @@ export function saveStoredLoveConfig(config: LoveConfig): void {
 export const defaultPhotoMemories: PhotoMemory[] = [
   {
     id: "memory-1",
-    src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80",
+    src: "./images/gallery/photo-1.jpg",
     captionBn: "এই মুহূর্তটা আমার খুব প্রিয়। তোমার হাসির মধ্যে অদ্ভুত এক শান্তি আছে। ❤️",
     captionEn: "One of my favorite moments. There is a magical peace in your smile. ❤️",
     date: "স্মরণীয় দিন",
@@ -62,7 +62,7 @@ export const defaultPhotoMemories: PhotoMemory[] = [
   },
   {
     id: "memory-2",
-    src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80",
+    src: "./images/gallery/photo-2.jpg",
     captionBn: "তোমার হাত ধরে হেঁটে চলার অনুভূতি যে কতটা স্পেশাল, তা শুধু আমি জানি। 🌸",
     captionEn: "Walking hand in hand with you is a feeling so precious words can't capture. 🌸",
     date: "বৃষ্টিভেজা সন্ধ্যা",
@@ -78,7 +78,7 @@ export const defaultPhotoMemories: PhotoMemory[] = [
   },
   {
     id: "memory-4",
-    src: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    src: "./images/gallery/photo-3.jpg",
     captionBn: "তোমার চোখের দিকে তাকালে সারা পৃথিবীর কোলাহল থেমে যায়। 💖",
     captionEn: "Looking into your eyes makes the whole chaotic world quiet down. 💖",
     date: "প্রথম দেখার স্মৃতি",

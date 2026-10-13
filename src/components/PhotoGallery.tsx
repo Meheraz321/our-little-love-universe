@@ -323,7 +323,7 @@ export const PhotoGallery: React.FC<PhotoGalleryProps> = ({
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src =
-                      'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80';
+                      '/images/gallery/photo-1.jpg';
                   }}
                 />
 
